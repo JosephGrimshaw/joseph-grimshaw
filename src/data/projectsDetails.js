@@ -190,6 +190,8 @@ export const projectsDetailsData = [
     {
         id: 3,
 
+        github: "https://github.com/JosephGrimshaw/joseph-grimshaw",
+
         src1: "/assets/images/projects/portfolio/homePage.png",
         alt1: "Home Page",
         caption1: "Home Page of Website",
