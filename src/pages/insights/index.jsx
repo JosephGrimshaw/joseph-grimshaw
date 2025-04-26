@@ -6,9 +6,9 @@ import CardArray from "@/components/cardArray/CardArray";
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
   title:
-    "Blog 1 || Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
 };
 export default function BlogPage1() {
   return (

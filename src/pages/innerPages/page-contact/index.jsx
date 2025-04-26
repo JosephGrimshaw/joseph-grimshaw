@@ -8,9 +8,9 @@ import Contact2 from "@/components/innerpages/Contact2";
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
   title:
-    "Contact 2 || Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
 };
 export default function ContactPage2() {
   return (

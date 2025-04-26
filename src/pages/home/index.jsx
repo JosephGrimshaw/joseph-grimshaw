@@ -9,9 +9,9 @@ import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
   title:
-    "Home 2 || Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
 };
 export default function HomePage2() {
   return (

@@ -9,9 +9,9 @@ import { useParams } from "react-router-dom";
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
   title:
-    "Career Details || Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
 };
 export default function Resume() {
   return (

@@ -10,9 +10,9 @@ import Cta from "@/components/innerpages/Cta";
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
   title:
-    "About || Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
 };
 export default function AboutPage() {
   return (

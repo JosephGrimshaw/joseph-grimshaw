@@ -8,9 +8,9 @@ import { useParams } from "react-router-dom";
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
   title:
-    "Blog Details || Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
 };
 export default function ProjectsDetailsPage() {
   let params = useParams();

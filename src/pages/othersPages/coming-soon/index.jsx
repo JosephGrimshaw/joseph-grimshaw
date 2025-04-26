@@ -2,9 +2,9 @@ import CommingSoon from "@/components/otherPages/CommingSoon";
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
   title:
-    "Comming Soon || Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
 };
 export default function CommingSoonPage() {
   return (

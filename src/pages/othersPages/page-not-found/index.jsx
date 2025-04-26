@@ -6,9 +6,9 @@ import Notfound from "@/components/otherPages/404";
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
   title:
-    "Not Found || Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
 };
 export default function page() {
   return (

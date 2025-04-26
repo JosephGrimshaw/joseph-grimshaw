@@ -9,9 +9,9 @@ import MetaComponent from "@/components/common/MetaComponent";
 import { projectData } from '../../../data/projects';
 const metadata = {
   title:
-    "Blog Category || Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup reactjs template.",
+    "Joseph Grimshaw",
 };
 export default function InsightsCategory() {
   let params = useParams();
