@@ -1,6 +1,6 @@
 export const projectsDetailsData = [
     {
-        id: 0, // Ant Simulation 
+        id: "antsim", // Ant Simulation 
 
         github: "https://github.com/JosephGrimshaw/AntSim",
 
@@ -69,7 +69,7 @@ export const projectsDetailsData = [
         ]
     },
     {
-        id: 1, // Game Theory
+        id: "game-theory", // Game Theory
 
         download: "/assets/images/projects/gameTheory/gameTheoryInvestigation.pdf",
         github: "https://github.com/JosephGrimshaw/gameTheory",
@@ -127,7 +127,7 @@ export const projectsDetailsData = [
         ]
     },
     {
-        id: 2,
+        id: "fire-detector",
 
         github: "https://github.com/JosephGrimshaw/fireDetector",
 
@@ -188,7 +188,7 @@ export const projectsDetailsData = [
         ]
     },
     {
-        id: 3,
+        id: "portfolio",
 
         github: "https://github.com/JosephGrimshaw/joseph-grimshaw",
 

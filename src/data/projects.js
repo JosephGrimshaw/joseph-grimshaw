@@ -1,6 +1,6 @@
 export const projectData = [
   {
-    id: 0,
+    id: "antsim",
     category: "AI",
     imgSrc: "/assets/images/projects/antSim/sim.png",
     homeImg: "/assets/images/projects/antSim/sim.png",
@@ -11,7 +11,7 @@ export const projectData = [
     date: "Apr 2025",
   },
   {
-    id: 1,
+    id: "game-theory",
     category: "AI",
     imgSrc: "/assets/images/projects/gameTheory/simulation.png",
     homeImg: "/assets/images/projects/gameTheory/simulation.png",
@@ -22,7 +22,7 @@ export const projectData = [
     date: "Mar 2025",
   },
   {
-    id: 2,
+    id: "fire-detector",
     category: "AI",
     imgSrc: "/assets/images/projects/fireDetector/prediction.png",
     homeImg: "/assets/images/projects/fireDetector/prediction.png",
@@ -33,7 +33,7 @@ export const projectData = [
     date: "Mar 2025",
   },
   {
-    id: 3,
+    id: "portfolio",
     category: "Web Development",
     imgSrc: "/assets/images/projects/portfolio/homePage.png",
     imgAlt: "Webpage",
