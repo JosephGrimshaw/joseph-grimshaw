@@ -1,0 +1,45 @@
+export const projectData = [
+  {
+    id: 0,
+    category: "AI",
+    imgSrc: "/assets/images/projects/antSim/sim.png",
+    homeImg: "/assets/images/projects/antSim/sim.png",
+    imgAlt: "Ant Simulation",
+    imgCaption: "Pygame Simulation",
+    title: "Deep Q-Learning Ant Modelling",
+    desc: "I used deep neural networks (RNN, CNN, Linear) combined with reinforcement learning in pygame to model the emergence of natural behaviours in ants.",
+    date: "Apr 2025",
+  },
+  {
+    id: 1,
+    category: "AI",
+    imgSrc: "/assets/images/projects/gameTheory/simulation.png",
+    homeImg: "/assets/images/projects/gameTheory/simulation.png",
+    imgAlt: "Pygame Simulation",
+    imgCaption: "Game Theory Simulation",
+    title: "Game Theory AI",
+    desc: "I simulated John Keynes' hawks and doves model of game theory, and then produced a linear model capable of predicting the result given a certain set of rewards.",
+    date: "Mar 2025",
+  },
+  {
+    id: 2,
+    category: "AI",
+    imgSrc: "/assets/images/projects/fireDetector/prediction.png",
+    homeImg: "/assets/images/projects/fireDetector/prediction.png",
+    imgAlt: "Fire Detection",
+    imgCaption: "AI Predicting Fire",
+    title: "Image Fire Detector",
+    desc: "I leveraged CNNs and supervised learning to produce a model capable of predicting the presence of fire in an image, including a user interface.",
+    date: "Mar 2025",
+  },
+  {
+    id: 3,
+    category: "Web Development",
+    imgSrc: "/assets/images/projects/portfolio/homePage.png",
+    imgAlt: "Webpage",
+    imgCaption: "Website Homepage",
+    title: "React Portfolio Website",
+    desc: "I built this portfolio website using react from a bootstrap template.",
+    date: "Apr 2025"
+  }
+];

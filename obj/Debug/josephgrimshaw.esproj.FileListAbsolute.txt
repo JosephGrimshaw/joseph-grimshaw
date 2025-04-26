@@ -1,0 +1,2 @@
+C:\Users\darre\source\repos\Ameveo\Ameveo\obj\Debug\josephgrimshaw.esproj.CoreCompileInputs.cache
+C:\Users\darre\source\repos\JosephGrimshaw\JosephGrimshaw\obj\Debug\josephgrimshaw.esproj.CoreCompileInputs.cache
