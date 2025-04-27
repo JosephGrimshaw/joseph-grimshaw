@@ -2,8 +2,8 @@ export const projectData = [
   {
     id: "antsim",
     category: "AI",
-    imgSrc: "/assets/images/projects/antSim/sim.png",
-    homeImg: "/assets/images/projects/antSim/sim.png",
+    imgSrc: "/assets/images/projects/antSim/sim1280.png",
+    homeImg: "/assets/images/projects/antSim/sim1280.png",
     imgAlt: "Ant Simulation",
     imgCaption: "Pygame Simulation",
     title: "Deep Q-Learning Ant Modelling",
@@ -13,8 +13,8 @@ export const projectData = [
   {
     id: "game-theory",
     category: "AI",
-    imgSrc: "/assets/images/projects/gameTheory/simulation.png",
-    homeImg: "/assets/images/projects/gameTheory/simulation.png",
+    imgSrc: "/assets/images/projects/gameTheory/simulation1280.png",
+    homeImg: "/assets/images/projects/gameTheory/simulation1280.png",
     imgAlt: "Pygame Simulation",
     imgCaption: "Game Theory Simulation",
     title: "Game Theory AI",
@@ -24,8 +24,8 @@ export const projectData = [
   {
     id: "fire-detector",
     category: "AI",
-    imgSrc: "/assets/images/projects/fireDetector/prediction.png",
-    homeImg: "/assets/images/projects/fireDetector/prediction.png",
+    imgSrc: "/assets/images/projects/fireDetector/prediction1280.png",
+    homeImg: "/assets/images/projects/fireDetector/prediction1280.png",
     imgAlt: "Fire Detection",
     imgCaption: "AI Predicting Fire",
     title: "Image Fire Detector",
@@ -35,7 +35,7 @@ export const projectData = [
   {
     id: "portfolio",
     category: "Web Development",
-    imgSrc: "/assets/images/projects/portfolio/homePage.png",
+    imgSrc: "/assets/images/projects/portfolio/homePage1280.png",
     imgAlt: "Webpage",
     imgCaption: "Website Homepage",
     title: "React Portfolio Website",
