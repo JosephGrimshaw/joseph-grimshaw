@@ -35,7 +35,7 @@ export const projectData = [
   {
     id: "portfolio",
     category: "Web Development",
-    imgSrc: "/assets/images/projects/portfolio/homePage1280.png",
+    imgSrc: "/assets/images/projects/portfolio/homePage.png",
     imgAlt: "Webpage",
     imgCaption: "Website Homepage",
     title: "React Portfolio Website",
