@@ -165,7 +165,7 @@ export default function Hero() {
                     Hi. I'm Joseph Grimshaw.
                   </h1>
                   <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                    Keen Scientist and AI Specialist
+                    Keen Scientist and AI Enthusiast
                   </p>
                   <form
                     onSubmit={(e) => e.preventDefault()}

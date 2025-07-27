@@ -1,5 +1,90 @@
 export const projectsDetailsData = [
     {
+        id: "mandelbrotPlot", // Mandelbrot Plot
+
+        github: "https://github.com/JosephGrimshaw/mandelbrotVisualiser",
+
+        src0: "/assets/images/projects/mandelbrot/mandelbrotZoomed2x1.png",
+        alt0: "Fractals within the Mandelbrot Set",
+        width0: 1412,
+        height0: 706,
+        caption0: "Fractals within the Mandelbrot Set",
+
+        src1: "/assets/images/projects/mandelbrot/juliaSet1x1.png",
+        alt1: "Julia Set",
+        width1: 712,
+        height1: 712,
+        caption1: "Plotted Julia Set",
+
+        src2: "/assets/images/projects/mandelbrot/mandelbrotPower3x2.png",
+        alt2: "Mandelbrot using Fourth Power",
+        width2: 686,
+        height2: 457,
+        caption2: "Mandelbrot using Fourth Power",
+
+        p1: `In this project, I leveraged the parallel processing power of pyTorch to
+            produce a dynamic Mandelbrot and Julia set visualiser in Matplotlib. It
+            allows for zooming and panning, as well as responsive parameter changes,
+            allowing beautiful fractals to be explored to great depth. I presented
+            my visualiser to a group of teachers and the year 12 maths students.`,
+
+        p2: `When several teachers at my school were discussing the idea of plotting the
+            Mandelbrot set, I decided one weekend to explore it, and see how far I could
+            get. I began by researching the formula and the mathematics of complex numbers
+            (which I had not been taught yet), and had not encountered since working on a year
+            12 further maths MOOC several months before. Immediately I was captivated by such
+            an astoundingly complex set of numbers. Please refer to the Numberphile Youtube video
+            on the sets for a firm explanation.`,
+
+        p3: `Once I felt I had grasped the mathematics, I set about coding the plotter. Having recently
+            spent much time working on various AI models, my first thoughts were of parallel processing. The plot involved many
+            very lengthy, yet completely separate, calculations, which did not rely on each other. This would be a perfect application
+            of my CUDA, so I chose to use pyTorch for data storage and calculations. Numpy was also an attractive candidate, however, being an AI enthusiast,
+             I wished
+            to practise my pyTorch skills at any opportunity. I began by coding the mathematical function, which, to my surprise, gave me the
+            fewest headaches of all the sections of the project. I constructed zx, zy, cx and cy tensors from a meshgrid before repeatedly squaring
+            z tensors and adding on c tensors. Then, any values whose magnitude had exceeded 2 were marked as diverged, and converted to NaN. This was
+            because, as determined by much smarter people than myself, as soon as a term exceeds 2, it can be said that it will eventually diverge.
+            The iteration at which the term diverged was then saved to the image colourmap, allowing speeds of divergence to also be visualised. I 
+            decided to perform iterations 300 times, as this balanced accuracy and computing speeds. Once the 300 iterations had passed, the colourmap
+            was returned and plotted by a simple matplotlib plotter which I also built. Later, I had issues with NaN corruption, so I switched to a mask
+            system where a mask of which values were still being computed was tracked, and diverged values removed for efficiency. This solved the corruption.
+            Everything was working!`,
+
+        p4: `However, rerendering a detailed image on every plot was slow. So, I implemented numpy memmaps to store the data in files, and updated
+            my plotter to accept file input. Image parameters had to be provided to the plotter, however, so I looked for file storage methods which
+            enabled metadata to be saved and found zarr. Though arguably slightly overkill, being a large-scale data modelling package, it did allow
+            me to store parameters, allowing the plotter to only require the image file. It also happened to come with built-in compression, which
+            reduced file sizes from ~20GB to megabytes, to my steam library's delight. I also added the ability to zoom and pan, allowing for better visualisation.
+            Unfortunately, upon attempting to generate a 100,000*100,000 image, the code crashed due to what was effectively RAM torture. To allow higher-res images
+            to be generated, I implemented chunking to avoid holding too much data in the RAM at once. Initially, I only chunked along the x-axis, however I extended this
+            to also include the y-axis as large volumes of data caused severe errors in the image.`,
+        
+        p5: `Although this did allow images to be generated, I was crushed when
+            rendering my 100,000*100,000 image (which represented half the month's electricity bill) was far too obnoxiously slow to be practical. My solution was a
+            multiscale system, by which a generated image would be repeatedly downsampled and stored as a sequence of progressively lower-res images. During rendering, as
+            the user zoomed in, progressively higher res images would be rendered, meaning no detail was lost, but also that invisible detail did not slow down the plotter
+            when viewing the zoomed-out image. At last, I had a product that I was proud of. Several nights before my presentation, however, I had an idea. Why was it that
+            I was using separate generation and plotting systems anyway? I formulated a dynamic plotter, where a new image of constant 800*800 resolution was generated upon
+            zooming and panning, allowing for real-time, high-resolution exploration of the Mandelbrot and Julia sets, with the only limiter on depth being the accuracy of 32-bit
+            floats. CUDA and GPU are much more poorly optimised for 64-bit floats however, and the plots could already be viewed very deeply, so I decided to stick with float32.
+            I added sliders to dynamically control the static values in the sets (z in Mandelbrot, c in Julia), and the plotter was done!`,
+
+        p6: `I presented my project the year 12 maths students and to 5 of my teachers. One year 12 student had the idea to implement different exponents on the divergence
+            function, prompting me to implement generalised polynomial handling, creating extremely interesting patterns as the exponential increases.
+            Overall, I found the project and exploration of the sets exceedingly interesting, and I will certainly be investigating Chaos Theory
+            to more depth in the future. Utilising pyTorch and parallel processing also added a nuance to the work, and I loved linking together this new
+            mathematics with primarily AI tools which I had had more experience with. Upon briefly testing without pyTorch CUDA enabled, I was astounded
+            at how much of a difference parallel processing made to runtimes, and a real-time, full-res plotter would certainly have been impossible
+            without it. The presentation also proved a highly enjoyable experience, and I am very grateful to have been able to share some of the wonder
+            I felt at these stunning miracles of nature.`,
+
+        tags: [
+            {name: "Mathematics", id: 0},
+            {name: "Modelling", id: 1}
+        ]
+    },
+    {
         id: "antsim", // Ant Simulation 
 
         github: "https://github.com/JosephGrimshaw/AntSim",

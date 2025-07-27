@@ -1,5 +1,16 @@
 export const projectData = [
   {
+    id: "mandelbrotPlot",
+    category: "Mathematics",
+    imgSrc: "/assets/images/projects/mandelbrot/mandelbrot3x2.png",
+    homeImg: "/assets/images/projects/mandelbrot/mandelbrot3x2.png",
+    imgAlt: "Mandelbrot Plot",
+    imgCaption: "Visualised Mandelbrot Set",
+    title: "Mandelbrot Set Visualisation using pyTorch",
+    desc: "I created a dynamic visualiser of the Mandelbrot and Julia sets using pyTorch for parallel processing and matplotlib for plotting.",
+    date: "June 2025"
+  },
+  {
     id: "antsim",
     category: "AI",
     imgSrc: "/assets/images/projects/antSim/sim1280.png",

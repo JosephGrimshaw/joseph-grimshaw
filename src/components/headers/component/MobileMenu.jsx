@@ -81,6 +81,7 @@ export default function MobileMenu() {
         style={{ maxWidth: 876 }}
       >
         <header className="uc-offcanvas-header hstack justify-between items-center pb-2 bg-white dark:bg-gray-900">
+          {/*
           <div className="uc-logo">
             <Link
               to={`/`}
@@ -88,13 +89,14 @@ export default function MobileMenu() {
             >
               <img
                 className="w-32px"
-                alt="Lexend"
-                src="/assets/images/common/logo-mark.svg"
-                width="34"
-                height="34"
+                alt="Logo"
+                src="/assets/images/common/logo-light.png"
+                width="60"
+                height="60"
               />
             </Link>
           </div>
+          */}
           <button
             className="uc-offcanvas-close rtl:end-auto rtl:start-0 m-1 mt-2 icon-3 btn border-0 dark:text-white dark:text-opacity-50 hover:text-primary hover:rotate-90 duration-150 transition-all"
             type="button"
@@ -104,6 +106,7 @@ export default function MobileMenu() {
           </button>
         </header>
         <div className="panel">
+          {/*
           <form
             onSubmit={(e) => e.preventDefault()}
             id="search-panel"
@@ -119,6 +122,7 @@ export default function MobileMenu() {
               <i className="unicon-search icon-1" />
             </span>
           </form>
+          */}
           <div
             className="uc-sticky-placeholder"
             style={{ height: 40, width: 290, margin: "0px 0px 16px" }}
@@ -229,6 +233,7 @@ export default function MobileMenu() {
               </li>
             ))}
             <li className="hr opacity-10 my-1" />
+            {/*
             <li>
               <Link to={`/sign-up`}>Create an account</Link>
             </li>
@@ -240,16 +245,19 @@ export default function MobileMenu() {
                 Buy Template
               </a>
             </li>
+            */}
           </ul>
+          {/*
           <ul className="social-icons nav-x mt-4">
             <li>
               {icons.map((icon, index) => (
-                <a key={index} href={icon.href}>
+                <a key={index} href={icon.href} target="_blank">
                   <i className={icon.iconClass} />
                 </a>
               ))}
             </li>
           </ul>
+          */}
           <div
             className="py-2 hstack gap-2 mt-4 bg-white dark:bg-gray-900 uc-sticky uc-active uc-sticky-fixed"
             data-uc-sticky="position: bottom"

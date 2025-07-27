@@ -241,7 +241,7 @@ export default function PostContent({ item, detailsItem, title }) {
                   {getDownload()}
                 </ul>
               </div>
-                  {getValidImg("")}
+                  {getValidImg(0)}
                   {/*
                   <figure className="featured-image m-0">
                 <figure className="featured-image m-0 rounded ratio ratio-2x1 rounded uc-transition-toggle overflow-hidden">

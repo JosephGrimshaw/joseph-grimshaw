@@ -55,6 +55,8 @@ export const resumeData = [
       {content: "UKMT Maths Challenge Gold Certificate (year 9)"},
       {content: "UKMT Maths Challenge Gold Certificate (year 8)"},
       {content: "UKMT Maths Challenge Gold Certificate (year 7)"},
+      {content: "UKBC Gold Certificate (year 10)"},
+      {content: "UK Chemistry Olympiad Silver Certificate (year 10)"}
     ]
   },
   {
@@ -63,13 +65,14 @@ export const resumeData = [
     items: [
       {content: "Academic Scholarship"},
       {content: "Music Colour"},
-      {content: "All predicted GCSE grade 9s"},
+      {content: "All GCSE Trial 1 Grade 9s"},
       {content: "Attainment Form Prize (year 7)"},
       {content: "Attainment Form Prize (year 8)"},
       {content: "Approach to Learning Form Prize (year 9)"},
+      {content: "Physics Subject Prize (year 10)"},
       {content: "Science Fair Second Place (year 8)"},
       {content: "DofE Bronze Award (year 9)"},
-      {content: "DofE Silver Award (in progress)"},
+      {content: "DofE Silver Award (year 10)"},
       {content: "Lead Role in Macbeth Production (year 8)"}
     ]
   },
@@ -77,8 +80,9 @@ export const resumeData = [
     id: 4,
     title: "Music",
     items: [
-      {content: "ABRSM Grade 5 Piano"},
-      {content: "ABRSM Grade 5 Drum Kit"},
+      {content: "ABRSM Grade 5 Piano Distinction"},
+      {content: "ABRSM Grade 5 Drum Kit Distinction"},
+      {content: "ABRSM Grade 5 Theory Distinction"},
       {content: "Cornwall Music Festival First Place for Grades 5 and 6 Piano (year 9)"},
       {content: "Piano and Vocal Performance of Own Christmas Composition (year 9)"},
       {content: "Guitar and Vocal Performance of Own Acoustic Composition (year 9)"},
