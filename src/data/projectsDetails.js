@@ -302,5 +302,62 @@ export const projectsDetailsData = [
             {name: "Web Development", id: 0},
             {name: "React", id: 1}
         ]
+    },
+    {
+        id: "computer",
+
+        github: "https://github.com/JosephGrimshaw",
+
+        src1: "/assets/images/projects/portfolio/homePage.png",
+        alt1: "Home Page",
+        caption1: "Home Page of Website",
+        width1: 1280,
+        height1: 853,
+
+        p1: `After receiving a computer for my 15th birthday, I researched the benefits of different purchasing options, and decided on building my own. Although I knew that
+            it would be a lengthy, challenging affair, I felt that it would be a very useful experience for me, and that the financial and performance benefits merited the work.
+            I completed the build, and was able to run much more demanding ML tasks, as well as finally run max settings on my favourite games!`,
+        
+        p2: `Initially, I was planning on purchasing a pre-built Dell rig, however after research it became extremely clear that building my own PC would be a much better option.
+            It would be cheaper, as I would not be paying for warranty, labour and overheads, and it would also provide a hightened customisability and upgradability. The first
+            stage of this process was, of course, selection of parts. I began with a PCPartPicker list of about the correct budget which was specialised for ML, and began querying
+            various websites and discord servers to explore ways of improving the build. My primary purposes were ML and gaming, which meant the most important part of the rig would
+            be the GPU, for parallel processing of tensors in ML and graphics in gaming. Due to my decision to build my own PC, I was able to select an RTX 5090 with my budget, the
+            best commercial GPU at the time. Furthermore, I knew that my RAM would be very important for handling large quantities of data, so I selected a 64GB combination, and then
+            a 96GB combination as I found a source that was negligably more expensive. Though less important, the CPU would still heavily impact my unparallelised work and gaming, so
+            I chose an Intel 265K Ultra 7, as it was the best for its price point and upgrading to an Ultra 9 offered minimal improvements. I also found a relatively cheap 4TB SSD,
+            which I knew was vital for storage of large datasets. This would be confirmed within my first week of using the PC! I chose an Aorus Elite motherboard to ensure upgradability
+            and fast communication between components, and a Deepcool AIO and Lian Li 216 case with fans included, as these were budget yet effective options which offered beautiful
+            aesthetics. I ordered from the sites with the best deals, and, the following weekend, I was ready to build!`,
+
+        p3: `I built the PC with the help of my father, as well as a video by youtuber PCCentric. We began by constructing the motherboard, inserting the CPU, RAM and storage. This went
+            relatively smoothly, however we then moved on to inserting the motherboard into the case. We encountered difficulties here, as the Lancool case had different screws and
+            procedures to that in the video tutorial, and so we consulted the instruction manual and ascertained the correct layout and choice of screws. Once the motherboard was in
+            place, we moved on to the cooler. This presented more issues, as it was barely able to fit the case despite my extensive compatibility research, however with some
+            teamwork we were able to screw it into place in the roof of the PC. However, we encountered more problems when attempting to daisy chain the ARGB fans. As we had never
+            handled PCs before, we were unsure of how to implement daisy chaining, and the instructions for the cooler did not match with the case and motherboard we had. After much
+            deliberation and examination, we found a fan array slot on the rear of the PC, and were able to decipher the correct cabling to efficiently daisy chain the fans and connect
+            them to the motherboard. The other cables on the case presented similar difficulties, as motherboard layouts did not match up, however after watching many online tutorials
+            with our selected components, we were able to identify the correct slots for each cable. The final components were the GPU and power supply, which fit into place with minimal
+            issue. However, we had to fashion our own sag bracket from the one provided as it would not connect properly, and correctly connecting the GPU to the power supply took some
+            research, as our 5090 required different power connections to the GPU of the video tutorial. Upon switching the power supply on and connecting a monitor and peripherals, we
+            switched the PC on!`,
+        p4: `Upon inserting a USB stick containing Windows 11 OS, the first issue we encountered was that the PC could not detect any networks, despite us having connected the wireless
+            receiver to the motherboard. After some research, we found out that some initial drivers had to be installed, so we found the correct drivers from the motherboard website
+            and uploaded them onto a USB stick. However, the selector would not detect exe files, only inf files, so we had to find another way of installing the drivers. This came in
+            the form of bypassing the connection and running a local user, as the drivers could be installed from the normal Windows system. Finally, the networks began to appear, and
+            we could move on to the regular steps of Windows setup. The last problem we encountered came when editing BIOS settings for optimisation. Upon restarting the PC after the edits,
+            the monitor remained black and the PC would click off after varying lengths of time. Very concerned, we researched how to reset the BIOS, and ultimately had to remove the 
+            motherboard mini-battery and temporarily connect the jumper sticks on the motherboard with a screwdriver. We had to repeat this process several times to determine which
+            setting was causing the issues, and finally realised that it was the XMP. So, we configured the other settings, restarted the PC, and it ran as intended! I installed the RGB
+            syncs, as well as the software and games which I required, and transferred my active work files from my laptop, all while being extremely careful not to bloat or clutter the PC!
+            At last, I was ready to use it!`,
+        p5: `Overall, I am very happy that we took the decision to build the PC, as it provided a rich learning experience for me which I will take into the future, and provided me
+            with valuable skills of physical computing and computer architecture. Furthermore, due to the upgrades we were able to make due to the economic benefit over buying a pre-build,
+            I have since been able to run highly demanding ML tasks such as NLP on the PC, and I have never had better gaming performance! Most importantly of all though, of course, is that
+            the PC and its RGB looks absolutely, definitively, unquestionably, fantastic!`,
+        tags: [
+            {name: "Computing", id: 0},
+        ]
     }
 ]

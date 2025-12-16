@@ -23,6 +23,7 @@ export const resumeData = [
       {content: "MOOC - IBM Deep Learning with Python and Pytorch", link: "https://courses.edx.org/certificates/37faa62d69ba40bcba3100683953cbea", linkText: "[View Certificate]"},
       {content: "MOOC - IBM Applied Deep Learning Capstone Project", link: "https://courses.edx.org/certificates/2038360dd2994ba88c1559e09702fb9b", linkText: "[View Certificate]"},
       {content: "MOOC - ICL A-Level Further Maths for Year 13 (in progress)"},
+      {content: "Deeplearning.ai Attention in Transformers Course", link: "https://learn.deeplearning.ai/accomplishments/d64710d3-68b3-4630-ad6c-b62a872c9e63?usp=sharing", linkText: "[View Accomplishment]"},
       {content: "Khan Academy - AP/College Calculus AB"},
       {content: "Khan Academy - Precalculus"}
     ]

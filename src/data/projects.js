@@ -52,5 +52,15 @@ export const projectData = [
     title: "React Portfolio Website",
     desc: "I built this portfolio website using react from a bootstrap template.",
     date: "Apr 2025"
+  },
+  {
+    id: "computer",
+    category: "Physical Computing",
+    imgSrc: "/assets/images/projects/portfolio/homePage.png",
+    imgAlt: "Webpage",
+    imgCaption: "My Computer",
+    title: "Building my Own Computer",
+    desc: "I built my own desktop computer from its parts, and set up the required software.",
+    date: "September 2025"
   }
 ];
