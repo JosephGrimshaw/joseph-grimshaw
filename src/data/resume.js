@@ -32,6 +32,7 @@ export const resumeData = [
     id: 1,
     title: "IT Proficiencies",
     items: [
+      {content: "WebGPU"},
       {content: "Pytorch with Matplotlib, Numpy, Pandas and Scikit"},
       {content: "React JS"},
       {content: "Fast API"},
@@ -50,14 +51,22 @@ export const resumeData = [
       {content: "International King's College Schools Coding Competition First Place (year 5)"},
       {content: "AMSP Regional Maths Feast First Place with Best Round 2 Score in Country (year 10)"},
       {content: "UKMT Regional Team Maths Challenge Second Place (year 9)"},
+      {content: "UKMT Maths Challenge Pink Kangaroo Silver Certificate (year 11)"},
       {content: "UKMT Maths Challenge Pink Kangaroo Gold Certificate and Best in School (year 10)"},
       {content: "UKMT Maths Challenge Grey Kangaroo Merit and Best in School (year 9)"},
+      {content: "UKMT Senior Olympiad Merit (year 11)"},
+      {content: "UKMT Senior Maths Challenge Gold Certificate (year 11)"},
       {content: "UKMT Maths Challenge Gold Certificate (year 10)"},
       {content: "UKMT Maths Challenge Gold Certificate (year 9)"},
       {content: "UKMT Maths Challenge Gold Certificate (year 8)"},
       {content: "UKMT Maths Challenge Gold Certificate (year 7)"},
       {content: "UKBC Gold Certificate (year 10)"},
-      {content: "UK Chemistry Olympiad Silver Certificate (year 10)"}
+      {content: "UK Chemistry Olympiad Silver Certificate (year 10)"},
+      {content: "UK Chemistry Olympiad Silver Certificate (year 11)"},
+      {content: "IPHO Bronze II (year 11)"},
+      {content: "BAAO Astro Challenge Distinction (year 11)"},
+      {content: "BAAO Astro Olympiad Round 1 Gold (year 11)"},
+
     ]
   },
   {
@@ -71,6 +80,7 @@ export const resumeData = [
       {content: "Attainment Form Prize (year 8)"},
       {content: "Approach to Learning Form Prize (year 9)"},
       {content: "Physics Subject Prize (year 10)"},
+      {content: "Physics Subject Prize (year 11)"},
       {content: "Science Fair Second Place (year 8)"},
       {content: "DofE Bronze Award (year 9)"},
       {content: "DofE Silver Award (year 10)"},
